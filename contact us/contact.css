@@ -80,7 +80,6 @@ nav {
     border-radius: 10px;
     padding: 30px;
     min-width: 300px;
-    margin-left: 50px;
 
 }
 input {
@@ -95,11 +94,11 @@ input {
     height: 40px;
 }
 
+
 #contact-info {
 
     font-display:flex;
     flex: 1;
-    margin-right: 50px;
     
     
 }
@@ -109,7 +108,7 @@ input {
         box-shadow: 0px 3px 5px rgb(230, 209, 248);
         border-radius: 10px;
         padding: 8px;
-        margin-bottom: 10px;
+        margin-bottom: 4rem;
         padding-left: 40px; 
 }
 #contact-info1 div {
@@ -131,6 +130,7 @@ input {
 
 }
 
+
 #submit-button {
     background-color: #8880FF;
     border: none;
@@ -143,31 +143,26 @@ input {
     text-align: center;
     width: 200px;
 }
+
+
+
 @media (max-width: 700px ){
-    #navigation {
+    nav {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        column-gap: 10px;
-        flex-wrap: wrap;
-        min-height: 80px;
-        border-bottom: 2px solid darkgrey;
+        gap: 1rem;
     }
-    ul {
-        padding-inline-start: 10px;
-    }
-    #navmenues li{
-    display: inline-block;
-    text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
-    
+
+  .options {
+        gap: 1rem;
+  }
+
+  .volunteer {
+        width: 100%;
+  }
+
+  #get-in-touch{
+    padding: 0;
+  }
+  
 }
-    
-    
-
-}
-
-
-
