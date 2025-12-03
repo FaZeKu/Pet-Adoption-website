@@ -3,6 +3,9 @@ body {
     font-weight: 200;
     font-style: normal;
 }
+h1 {
+    font-weight: 500;
+}
 #navigation {
     display: flex;
     justify-content: space-around;
@@ -117,7 +120,7 @@ body {
     max-width: 300px;
     min-width: 230px;
     border-radius: 10px;
-    background-color: rgb(220, 179, 220);
+    background-color: #E9D4FF;
     padding: 20px;
     box-shadow: 0 3px 5px rgba(0,0,0,0.3);
     flex : 1 ;
